@@ -20,7 +20,6 @@ void printIP(const char *label, int ip[4]) {
     printf("%s: %d.%d.%d.%d\n", label, ip[0], ip[1], ip[2], ip[3]);
 }
 
-
 int main() {
     char ipStr[16], maskStr[16];
     int ip[4], mask[4], network[4], broadcast[4];
